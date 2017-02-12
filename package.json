@@ -1,0 +1,42 @@
+{
+	"name": "face-mapper",
+	"description": "Practice project for D3 and three.js. Graphs the visible surface area of a 3D object's faces.",
+	"version": "0.1.0",
+	"authors": [
+		"Walter Mitchell <walt@walt.codes>"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/walt-er/face-mapper",
+	"repository": { 
+		"type" : "git", 
+		"url" : "https://github.com/walt-er/face-mapper.git"
+	},
+	"bugs": {
+		"url": "https://github.com/walt-er/face-mapper/issues"
+	},
+	"scripts": {
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"babel-preset-env": "1.1.8",
+		"gulp-babel": "^6.1.2",
+		"express": "^4.2.0",
+		"gulp": "^3.9.0",
+		"gulp-concat": "^2.6.0",
+		"gulp-debug": "^3.0.0",
+		"jshint": "^2.9.4",
+		"gulp-jshint": "^2.0.4",
+		"gulp-sass": "^3.1.0",
+		"gulp-uglify": "^2.0.1",
+		"morgan": "^1.8.1"
+	},
+	"babel": {
+		"presets": [
+			["env", {
+				"targets": {
+					"browsers": ["last 2 versions", "safari >= 7"]
+				}
+			}]
+		]
+	}
+}
